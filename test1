@@ -7,7 +7,6 @@ public boolean equals(Object o) {
             Objects.equals(name, user.name) &&
             sex == user.sex;
 }
-
 @Override
 public int hashCode() {
     return Objects.hash(name, age, sex);
